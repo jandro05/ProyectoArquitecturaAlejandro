@@ -10,34 +10,16 @@ public class Casa {
 	//Cálculo del presupuesto
 	int ventanas;
 	int precio;
-	String instalacion ;
+	
 	
 	int presupuesto(int vent, int prec, String inst) {
 		int presupuesto = 0;
 		
 		ventanas=vent;
 		precio=prec=25;
-		instalacion=inst;
-		//inst=instalacion;
 		presupuesto = ventanas*precio;
 		
-	
 		return presupuesto;
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 	}
@@ -49,8 +31,6 @@ public class Casa {
 	int ventanas(int metros, String presup)
 		{
 	
-	
-		
 			if (metros>0 && metros<=10)
 				{
 				ventanas = 1;

@@ -98,7 +98,7 @@ public class EntradaDatos {
 	
 		String precioinstalacion() {
 			Scanner n2 = new Scanner(System.in);
-			System.out.println("¿Desea usted la instalación de las ventanas?  "
+			System.out.println("¿Desea usted la instalación de las ventanas? (conteste 1 o 2) "
 					+ "\n"+ "1: Si"
 					+ "\n"+ "2: No");
 					
