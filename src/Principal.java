@@ -29,7 +29,7 @@ public class Principal {
 		int metrosparedtrasera = ed.metrosparedtrasera();
 		int metros = (metrosfachada+metrosparedlateral+metrosparedlateral2+metrosparedtrasera);
 		int precio=25;
-
+		int manodeobra=100;
 		
 		
 		
@@ -54,7 +54,7 @@ public class Principal {
 		
 		String precioinstalacion= ed.precioinstalacion();
 		System.out.println(precioinstalacion);
-		
+		System.out.println("Si has seleccionado la instalación el precio sera de "+(presupuesto+manodeobra) + " euros, si no lo has seleccionado el precio es de "+presupuesto+ " euros");
 		
 		
 		

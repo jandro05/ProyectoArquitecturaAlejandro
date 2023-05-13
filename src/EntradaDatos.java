@@ -97,6 +97,7 @@ public class EntradaDatos {
 	//Precio para la instalación de las ventanas o no
 	
 		String precioinstalacion() {
+			
 			Scanner n2 = new Scanner(System.in);
 			System.out.println("¿Desea usted la instalación de las ventanas? (conteste 1 o 2) "
 					+ "\n"+ "1: Si"
@@ -118,7 +119,7 @@ public class EntradaDatos {
 			
 		default: return "Respuesta no reconocida";	
 		
-		
+			
 		}
 		
 		
